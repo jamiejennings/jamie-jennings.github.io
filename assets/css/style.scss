@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header { border-radius: 8px 8px 0 0; background: #CCCCCC; background: linear_gradient(#DDFBFC, #C6EAFA); position: relative; padding: 15px 20px; border-bottom: 3px solid #FEDF01; }
+
+header h1 { margin: 0; padding: 0; font-size: 24px; line-height: 1.2; color: #000000; }
+
+header ul { margin: 0; padding: 0; list-style: none; position: absolute; z-index: 1; right: 20px; top: 20px; height: 38px; padding: 1px 0; background: #FF40FF; background: linear_gradient(#77B9FB, #3782CD); border-radius: 5px; box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0; width: auto; }
+header ul:before { }
+header ul a { line-height: 1; font-size: 11px; color: #ff00ff; display: block; text-align: center; font-weight: 400; padding-top: 6px; height: 40px; }
+header ul a strong { font-size: 14px; display: block; color: #ffff00; -webkit-font-smoothing: antialiased; }
+
+header p.view { display: none; font-weight: 700; -webkit-font-smoothing: antialiased; }
+
+body { padding: 50px 0; margin: 0; font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #FF0333; font-weight: 300; background: #6C7989; }
+
+.wrapper { width: 960px; margin: 0 auto; background: #F7F7F7; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px; }
+

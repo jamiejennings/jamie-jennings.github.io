@@ -1,4 +1,8 @@
 title: "Jamie Jennings, Ph.D."
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+email: your-email@domain.com
+twitter_username: jamietheriveter
+github_username:  jamiejennings
 description: "Under construction"
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge

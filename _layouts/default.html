@@ -16,7 +16,7 @@
             <link href="{{ site.baseurl }}/css/layouts/syntax-friendly.css" rel="stylesheet">
         <![endif]-->
         <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="css/layouts/side-menu.css">
+            <link rel="stylesheet" href="/css/layouts/side-menu.css">
             <link href="{{ site.baseurl }}/css/layouts/syntax-friendly.css" rel="stylesheet">
         <!--<![endif]-->
 </head>
@@ -57,7 +57,10 @@
         </div>
 
         <div class="content">
+
 		{{content}} 
+
+                {% include footer.html %}
         </div>
     </div>
 </div>
@@ -65,7 +68,7 @@
 
 
 
-<script src="js/ui.js"></script>
+<script src="/js/ui.js"></script>
 
 </body>
 </html>

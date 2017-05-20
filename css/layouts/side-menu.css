@@ -80,7 +80,7 @@ appears on the left side of the page.
 */
 
 #menu {
-    margin-left: -150px; /* "#menu" width */
+    margin-left: -350px; /* "#menu" width */
     width: 150px;
     position: fixed;
     top: 0;

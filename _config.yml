@@ -1,1 +1,4 @@
-theme: jekyll-theme-modernist
+title: "abcdef"
+description: "Under construction"
+markdown: kramdown
+highlighter: rouge

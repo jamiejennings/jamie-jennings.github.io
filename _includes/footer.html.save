@@ -1,6 +1,6 @@
 <div class="footer">
     <div class="pure-menu pure-menu-horizontal">
-        <ul>
+        <ul align="left";>
             {% for nav in site.data.footer %}
               <li class="pure-menu-item"><a href="{{ nav.url }}" class="pure-menu-link">{{ nav.title }}</a></li>
             {% endfor %}

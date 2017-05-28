@@ -4,12 +4,13 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <!-- <h1 class="post-title">{{ page.title }}</h1> -->
+    <!-- <h2>{{ page.title }}</h2> -->
     <p class="post-meta">
-        posted on {{ page.date | date: "%b %-d, %Y" }}
-        {% for tag in page.tags %}
-          <span class="post-category post-category-{{ tag }}">{{ tag }}</span>
-        {% endfor %}
+        Posted on {{ page.date | date: "%b %-d, %Y" }}
+        <!-- {% for tag in page.tags %} -->
+        <!--   <span class="post-category post-category-{{ tag }}">{{ tag }}</span> -->
+        <!-- {% endfor %} -->
     </p>
   </header>
 

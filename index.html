@@ -4,11 +4,10 @@ title: Home
 ---
 
 <div class="posts">
-  <h1 class="content-subhead">Recent Posts</h1>
+  <!-- <h1 class="content-subhead">Recent Posts</h1> -->
   {% for post in site.posts %}
     <section class="post">
         <header class="post-header">
-
             <a href="{{ post.url | prepend: site.baseurl }}">
               <h2 class="post-title">{{ post.title }}</h2>
             </a>
@@ -24,6 +23,7 @@ title: Home
         <div class="post-description">
           {{ post.excerpt }}
         </div>
+      <hr>
     </section>
   {% endfor %}
 </div>
